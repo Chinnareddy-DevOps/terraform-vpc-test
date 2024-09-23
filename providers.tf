@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "chinna-remote-state"
-    key    = "workspace"
+    bucket = "chinnareddy-remote-state"
+    key    = "vpc-test"
     region = "us-east-1"
     dynamodb_table = "chinna-locking"
   }
